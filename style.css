@@ -1,7 +1,7 @@
 #countries-name {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
+    grid-gap: 10px;
 }
 
 .country {
@@ -9,9 +9,14 @@
     border-radius: 20px;
     padding: 20px;
     width: 400px;
+    text-align: center;
 }
 
 .country-name {
     font-size: 40px;
-    color: blueviolet;
+    color: #0becda;
+}
+
+.country img {
+    width: 350px;
 }
