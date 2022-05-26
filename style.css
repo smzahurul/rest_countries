@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    margin: auto;
 }
 
 .country {
@@ -13,10 +14,17 @@
 }
 
 .country-name {
-    font-size: 40px;
-    color: #0becda;
+    font-size: 50px;
+    color: hsl(202, 91%, 48%);
+    font-weight: 700px;
 }
 
 .country img {
-    width: 350px;
+    width: 400px;
+}
+
+h1 {
+    color: rgba(3, 3, 3, 0.774);
+    text-align: center;
+    font-size: 50px
 }
