@@ -1,26 +1,27 @@
 #countries-name {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    margin: auto;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .country {
-    border: 1px solid goldenrod;
+    border: 5px solid goldenrod;
     border-radius: 20px;
     padding: 20px;
     width: 400px;
+    font-weight: 700px;
     text-align: center;
 }
 
 .country-name {
     font-size: 50px;
     color: hsl(202, 91%, 48%);
-    font-weight: 700px;
 }
 
 .country img {
-    width: 400px;
+    width: 350px;
 }
 
 h1 {
